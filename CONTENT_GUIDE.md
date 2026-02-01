@@ -286,4 +286,4 @@ If you're stuck:
 
 ---
 
-**Last Updated:** February 2024
+**Last Updated:** February 1, 2024

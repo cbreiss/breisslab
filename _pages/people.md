@@ -21,7 +21,7 @@ author_profile: false
     <p>
       <a href="mailto:pi@breisslab.edu">📧 Email</a> | 
       <a href="https://scholar.google.com/">🎓 Google Scholar</a> | 
-      <a href="/breisslab/assets/cv/pi-cv.pdf">📄 CV</a>
+      <a href="/breisslab/assets/pdfs/pi-cv.pdf">📄 CV</a>
     </p>
   </div>
 </div>
