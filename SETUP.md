@@ -6,14 +6,23 @@ Your lab website is ready to go! Follow these simple steps to get it live on the
 
 ## Step 1: Enable GitHub Pages (Required - One Time Only)
 
+### Quick Steps:
+
 1. **Go to your repository:** https://github.com/cbreiss/breisslab
-2. **Click on "Settings"** (top right, next to the gear icon)
-3. **In the left sidebar, click "Pages"**
-4. **Under "Source", select:**
-   - Source: `GitHub Actions` (from the dropdown)
+2. **Click on "Settings" tab** (in the top horizontal menu, last item on the right)
+3. **In the left sidebar, scroll down and click "Pages"** (under "Code and automation" section)
+4. **Under "Source", click the dropdown and select "GitHub Actions"**
 5. **Done!** Your site will be available at: `https://cbreiss.github.io/breisslab/`
 
 > **Note:** It takes 2-3 minutes after the first commit for your site to go live.
+
+### 📘 Need More Detailed Instructions?
+
+If you can't find the Settings or Pages option, see the **[GITHUB_PAGES_SETUP.md](GITHUB_PAGES_SETUP.md)** file for:
+- Step-by-step instructions with visual descriptions
+- Screenshots of what each page looks like
+- Troubleshooting common issues
+- Alternative setup methods
 
 ---
 

@@ -4,6 +4,22 @@ Welcome to the Breiss Lab website repository! This site is built with Jekyll usi
 
 🌐 **Live Website:** [https://cbreiss.github.io/breisslab/](https://cbreiss.github.io/breisslab/)
 
+---
+
+## 🚀 First Time Setup
+
+**Before you can use the website, you MUST enable GitHub Pages:**
+
+👉 **See [GITHUB_PAGES_SETUP.md](GITHUB_PAGES_SETUP.md) for detailed setup instructions**
+
+**Quick summary:**
+1. Go to your repository Settings
+2. Click "Pages" in the left sidebar  
+3. Set Source to "GitHub Actions"
+4. Your site will be live in 2-3 minutes!
+
+---
+
 ## 📋 Quick Start for Beginners
 
 This guide is designed for people who are **not familiar with GitHub or programming**. Follow these simple steps to update your website.
@@ -242,10 +258,24 @@ Use this checklist when setting up your site for the first time:
 
 ---
 
+## 📚 Documentation Files
+
+This repository includes several guides to help you:
+
+- **[GITHUB_PAGES_SETUP.md](GITHUB_PAGES_SETUP.md)** - ⭐ Detailed GitHub Pages setup with visual guides
+- **[GETTING_STARTED.md](GETTING_STARTED.md)** - Overview of what was created and next steps  
+- **[SETUP.md](SETUP.md)** - Quick setup checklist
+- **[CONTENT_GUIDE.md](CONTENT_GUIDE.md)** - Templates for adding content (news, people, publications)
+- **[FILE_STRUCTURE.md](FILE_STRUCTURE.md)** - Explanation of all files and folders
+
+**Start here:** If you haven't enabled GitHub Pages yet, begin with [GITHUB_PAGES_SETUP.md](GITHUB_PAGES_SETUP.md)!
+
+---
+
 ## 📄 License
 
 This website template is based on the Minimal Mistakes Jekyll theme, which is © 2013-2024 Michael Rose and contributors under the MIT License.
 
 ---
 
-**Need help?** Open an issue on this repository or contact your web developer!
+**Need help?** Check [GITHUB_PAGES_SETUP.md](GITHUB_PAGES_SETUP.md) for detailed setup instructions, or open an issue on this repository!

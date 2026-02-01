@@ -65,7 +65,12 @@ A complete, professional academic lab website built with Jekyll and the Minimal 
 ## 🚀 Next Steps (In Order)
 
 ### Step 1: Enable GitHub Pages (5 minutes)
-Follow the instructions in **SETUP.md** to make your site live at:
+
+**Quick version:** Go to your repository → Settings (top menu) → Pages (left sidebar) → Source: "GitHub Actions"
+
+**Detailed version:** See **[GITHUB_PAGES_SETUP.md](GITHUB_PAGES_SETUP.md)** for complete step-by-step instructions with visual guides.
+
+Your site will be live at:
 ```
 https://cbreiss.github.io/breisslab/
 ```
