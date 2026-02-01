@@ -53,6 +53,9 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
+# Disable GitHub metadata for local builds
+github: [metadata]
+
 # Defaults
 defaults:
   # _pages
