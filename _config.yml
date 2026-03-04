@@ -1,0 +1,95 @@
+# Site Settings
+title: "Breiss Lab"
+subtitle: "Academic Research Laboratory"
+email: lab@breisslab.edu
+description: >-
+  Welcome to Breiss Lab. We are dedicated to advancing knowledge through 
+  cutting-edge research and collaboration.
+baseurl: "/breisslab" # the subpath of your site, e.g. /blog
+url: "https://cbreiss.github.io" # the base hostname & protocol for your site
+repository: "cbreiss/breisslab"
+
+# Theme Settings
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Author
+author:
+  name: "Principal Investigator Name"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "Principal Investigator at Breiss Lab"
+  location: "University Name"
+  email: "pi@breisslab.edu"
+  links:
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/cbreiss"
+
+# Reading Files
+include:
+  - _pages
+  
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
+timezone: America/New_York
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Disable GitHub metadata for local builds
+github: [metadata]
+
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+
+# Collections
+collections:
+  people:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+
+# Archive settings
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
