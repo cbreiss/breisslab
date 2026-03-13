@@ -1,89 +1,36 @@
 ---
 permalink: /contact/
-title: "Contact Us"
+title: "Contact"
 layout: single
 author_profile: true
 ---
 
 ## Get in Touch
 
-We welcome inquiries from prospective students, postdocs, and collaborators.
+**Email:** [cbreiss@usc.edu](mailto:cbreiss@usc.edu)
 
-### Lab Address
-
-**Breiss Lab**  
-[Department Name]  
-[University Name]  
-[Building Name, Room Number]  
-[Street Address]  
-[City, State ZIP]  
-[Country]
-
-### Email
-
-**General Inquiries:** lab@breisslab.edu  
-**Principal Investigator:** pi@breisslab.edu
-
-### Phone
-
-Office: +1 (XXX) XXX-XXXX  
-Lab: +1 (XXX) XXX-XXXX
+**Address:**
+Breiss Lab
+USC Linguistics Department
+University of Southern California
+Los Angeles, CA
 
 ---
 
-## Prospective Students & Postdocs
+## Prospective Students & Collaborators
 
-We are always looking for motivated and talented individuals to join our team.
+I welcome inquiries from prospective graduate students, postdocs, and collaborators.
 
-### Graduate Students
+**Graduate students:** If you're interested in pursuing a Ph.D. working with me, please review the [USC Linguistics graduate program](https://dornsife.usc.edu/ling/graduate/) and feel free to email me with your CV and a brief description of your research interests.
 
-If you're interested in pursuing a Ph.D. in our lab, please:
-1. Review our [research areas](/breisslab/research/)
-2. Check the graduate program requirements at [University Name]
-3. Contact [PI Name] with your CV and a brief statement of research interests
+**Postdocs:** I occasionally have openings for postdoctoral positions. Please email your CV, a brief research statement, and names of three references.
 
-### Postdoctoral Researchers
-
-We occasionally have openings for postdoctoral positions. Please email your:
-- CV
-- Brief research statement
-- Names and contact information for 3 references
-
-### Undergraduate Researchers
-
-Undergraduate students from [University Name] interested in research opportunities should email with:
-- Your major and year
-- Relevant coursework
-- Research interests
-- Time commitment (hours per week, expected duration)
-
----
-
-## Visiting Researchers
-
-We welcome visiting researchers and collaborators. Please contact us with:
-- Your background and current affiliation
-- Proposed duration of visit
-- Research objectives
-
----
-
-## Directions
-
-### By Public Transportation
-[Provide directions from nearest metro/bus stop]
-
-### By Car
-[Provide driving directions and parking information]
-
-### Campus Map
-[Link to campus map]
+**Undergraduates:** USC undergraduates interested in research opportunities are welcome to reach out with a description of your background and interests.
 
 ---
 
 ## Find Us Online
 
-- [Twitter/X](https://twitter.com/)
-- [LinkedIn](https://linkedin.com/)
 - [GitHub](https://github.com/cbreiss)
-- [University Department Page](https://university.edu/department/)
+- [USC Linguistics Department](https://dornsife.usc.edu/ling/)
+- [Canaan's personal site](https://cbreiss.com)

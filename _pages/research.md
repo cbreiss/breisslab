@@ -5,57 +5,30 @@ layout: single
 author_profile: true
 ---
 
-## Our Research
+Our research is in theoretical, computational, and experimental phonology, with particular interest in learning/acquisition, the representation of overlapping and interacting phonological processes, and phonology's interfaces with (morpho)syntax and the lexicon.
 
-At Breiss Lab, we conduct cutting-edge research in [your field]. Our work spans several key areas:
-
-### Research Area 1: [Topic Name]
-
-[Describe your first research area in detail. Include the scientific questions you're addressing, your approach, and why it matters.]
-
-**Key Publications:**
-- Publication 1 (Year)
-- Publication 2 (Year)
-
-**Funding:**
-- Grant from [Funding Agency] (Year-Year)
+Methodologically, we make use of whatever tools are needed for the job: computational modeling (Bayesian and otherwise), corpus methods, online surveys of understudied languages, and laboratory experiments of all types.
 
 ---
 
-### Research Area 2: [Topic Name]
+### Learning & Acquisition
 
-[Describe your second research area in detail. Include the scientific questions you're addressing, your approach, and why it matters.]
-
-**Key Publications:**
-- Publication 1 (Year)
-- Publication 2 (Year)
-
-**Funding:**
-- Grant from [Funding Agency] (Year-Year)
+How do learners acquire phonological generalizations from linguistic input? We investigate this using artificial grammar learning experiments, computational models of learning, and corpus methods applied to typological and historical data.
 
 ---
 
-### Research Area 3: [Topic Name]
+### Phonological Representations
 
-[Describe your third research area in detail. Include the scientific questions you're addressing, your approach, and why it matters.]
-
-**Key Publications:**
-- Publication 1 (Year)
-- Publication 2 (Year)
+How are overlapping and interacting phonological processes structured? We study cases where multiple processes interact — including opacity, counterbleeding, and related phenomena — to understand what representational demands they place on phonological theory.
 
 ---
 
-## Collaborations
+### Interfaces: Phonology, Morphosyntax, and the Lexicon
 
-We collaborate with research groups at:
-- [Institution 1]
-- [Institution 2]
-- [Institution 3]
+Phonological patterns often show sensitivity to morphological and syntactic structure, and to lexical identity. We study these interfaces — including lexical conservatism, paradigm uniformity, and base-specificity — using corpus, experimental, and computational methods.
 
-## Methods & Techniques
+---
 
-Our research utilizes:
-- [Technique 1]
-- [Technique 2]
-- [Technique 3]
-- [Technique 4]
+## Publications
+
+For a full list of publications, see [Google Scholar](https://scholar.google.com/citations?user=_vUbgoEAAAAJ&hl=en) or the [CV](https://drive.google.com/file/d/1Vs1EPyGQ5GrzWH2I-OEIurrpAfYFhWK9/view?usp=sharing).

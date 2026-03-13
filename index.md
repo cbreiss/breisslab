@@ -1,26 +1,25 @@
 ---
 layout: home
-title: "Welcome to Breiss Lab"
+title: "Breiss Lab"
 author_profile: true
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/header-image.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Advancing knowledge through cutting-edge research"
+excerpt: "Computational and Experimental Linguistics at USC"
 ---
 
-## About Our Lab
+## About the Lab
 
-Welcome to the Breiss Lab! We are a research group dedicated to [describe your research focus here]. Our team combines expertise in [research areas] to address fundamental questions in [field of study].
+The Breiss Lab is based in the [USC Linguistics Department](https://dornsife.usc.edu/ling/) at the University of Southern California. We study phonology — the sound systems of human language — using computational modeling, corpus methods, and behavioral experiments.
 
-## Research Highlights
+Our research addresses questions about how phonological knowledge is represented and learned, how phonology interacts with morphosyntax and the lexicon, and how overlapping and interacting phonological processes are structured.
 
-Our current research focuses on:
+## Research Interests
 
-- **Research Area 1**: Brief description of this research direction
-- **Research Area 2**: Brief description of this research direction  
-- **Research Area 3**: Brief description of this research direction
+- **Learning & acquisition** — how phonological generalizations are acquired from input
+- **Phonological representations** — the structure of overlapping and interacting processes
+- **Interfaces** — phonology's interactions with morphosyntax and the lexicon
+- **Methods** — Bayesian modeling, corpus methods, online experiments, laboratory phonology
 
 ## Latest News
 
@@ -34,4 +33,4 @@ Our current research focuses on:
 
 ## Join Us
 
-We are always looking for motivated researchers to join our team. If you're interested in our work, please check our [People](/breisslab/people/) page or [contact us](/breisslab/contact/).
+We welcome inquiries from prospective students and collaborators. See the [People](/people/) page or [contact us](/contact/).

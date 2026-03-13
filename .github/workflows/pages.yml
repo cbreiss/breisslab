@@ -1,27 +1,21 @@
-name: Deploy Jekyll site to GitHub Pages
+name: Deploy Jekyll site
 
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  # Build job
+  # ── Build for GitHub Pages ─────────────────────────────────────
   build:
     runs-on: ubuntu-latest
     steps:
@@ -36,15 +30,15 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
-      - name: Build with Jekyll
+      - name: Build with Jekyll (GitHub Pages)
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
-  # Deployment job
-  deploy:
+  # ── Deploy to GitHub Pages ─────────────────────────────────────
+  deploy-github-pages:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -54,3 +48,31 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  # ── Deploy to DreamHost (lab.cbreiss.com) ─────────────────────
+  deploy-dreamhost:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+          cache-version: 0
+      - name: Build with Jekyll (DreamHost)
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+      - name: Deploy via rsync over SSH
+        env:
+          SSH_KEY: ${{ secrets.DREAMHOST_SSH_KEY }}
+          HOST:    ${{ secrets.DREAMHOST_HOST }}
+          USER:    ${{ secrets.DREAMHOST_USER }}
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "$SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan "$HOST" >> ~/.ssh/known_hosts
+          rsync -avz --delete ./_site/ "${USER}@${HOST}:~/lab.cbreiss.com/"

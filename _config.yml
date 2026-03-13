@@ -1,37 +1,41 @@
 # Site Settings
 title: "Breiss Lab"
-subtitle: "Academic Research Laboratory"
-email: lab@breisslab.edu
+subtitle: "Computational and Experimental Linguistics"
+email: cbreiss@usc.edu
 description: >-
-  Welcome to Breiss Lab. We are dedicated to advancing knowledge through 
-  cutting-edge research and collaboration.
-baseurl: "/breisslab" # the subpath of your site, e.g. /blog
-url: "https://cbreiss.github.io" # the base hostname & protocol for your site
+  Breiss Lab studies phonology using computational and experimental methods,
+  with interests in learning, phonological representations, and the
+  phonology-morphosyntax-lexicon interface.
+baseurl: "" # empty for custom domain deployment
+url: "https://lab.cbreiss.com"
 repository: "cbreiss/breisslab"
 
 # Theme Settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "default"
 
 # Site Author
 author:
-  name: "Principal Investigator Name"
+  name: "Canaan Breiss"
   avatar: "/assets/images/bio-photo.jpg"
-  bio: "Principal Investigator at Breiss Lab"
-  location: "University Name"
-  email: "pi@breisslab.edu"
+  bio: "Assistant Professor, USC Linguistics"
+  location: "University of Southern California"
+  email: "cbreiss@usc.edu"
   links:
     - label: "Google Scholar"
       icon: "fas fa-fw fa-graduation-cap"
-      url: "https://scholar.google.com/"
+      url: "https://scholar.google.com/citations?user=_vUbgoEAAAAJ&hl=en"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/cbreiss"
+    - label: "cbreiss.com"
+      icon: "fas fa-fw fa-link"
+      url: "https://cbreiss.com"
 
 # Reading Files
 include:
   - _pages
-  
+
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -43,7 +47,7 @@ exclude:
 permalink: /:categories/:title/
 paginate: 5
 paginate_path: /page:num/
-timezone: America/New_York
+timezone: America/Los_Angeles
 
 # Plugins
 plugins:
