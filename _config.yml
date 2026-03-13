@@ -9,6 +9,7 @@ description: >-
 baseurl: "" # empty for custom domain deployment
 url: "https://lab.cbreiss.com"
 repository: "cbreiss/breisslab"
+google_analytics: "G-GK2Q17JJCY"
 
 # Theme Settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
